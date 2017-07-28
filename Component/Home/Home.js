@@ -14,6 +14,7 @@ import {
 let {width,height}=Dimensions.get('window');
 import HomeDetail from './HomeDetail';
 import TopView from './TopView';
+import HomeMiddleView from './HomeMiddleView';
 import {StackNavigator, NavigationActions, NavigationUtil} from 'react-navigation';
 export default class Home extends Component {
   constructor(props){
@@ -25,15 +26,13 @@ export default class Home extends Component {
       <View style={styles.container}>
         {/*首页导航条*/}
         {this.renderNavBar()}
-        {/*<TouchableOpacity activeOpacity={0.3} onPress={()=>{this.props.navigation.navigate('HomeDetail')}}>
-          <Text style={styles.welcome}>
-            首页->详情
-          </Text>
-        </TouchableOpacity>*/}
+        
         {/*首页的主要内容*/}
         <ScrollView>
         {/*头部view*/}
         <TopView/>
+        {/*中间的内容*/}
+        <HomeMiddleView/>
         </ScrollView>
         
       </View>
