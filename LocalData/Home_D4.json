@@ -1,84 +1,73 @@
 {
-    "data":[
+    "stid": "72069155324449024",
+    "data": [
         {
-            "position":0,
-            "typeface_color":"#f6687d",
-            "id":15351,
-            "share":{
-                "message":"刷新颜值，靠脸吃饭，领最高188元红包",
-                "url":"https://www.github.com/841660202"
+            "position": 0,
+            "typeface_color": "#ff9900",
+            "id": 7486,
+            "share": {
+                "message": "1元能吃肯德基",
+                "url": "https://www.github.com/841660202"
             },
-            "title":"7月爽一下",
-            "module":false,
-            "tpurl":"",
-            "type":1,
-            "imageurl":"",
-            "solds":0,
-            "deputytitle":"新用户专享"
+            "title": "千元红包限时抢",
+            "module": false,
+            "tpurl": "",
+            "maintitle": "千元红包限时抢",
+            "type": 1,
+            "imageurl": "tttj",
+            "solds": 0,
+            "deputytitle": "五折起美食畅享"
         },
         {
-            "position":0,
-            "typeface_color":"#f6687d",
-            "id":15351,
-            "share":{
-                "message":"刷新颜值，靠脸吃饭，领最高188元红包",
-                "url":"https://www.github.com/841660202"
+            "position": 0,
+            "typeface_color": "#af5055",
+            "id": 7486,
+            "share": {
+                "message": "1元能吃肯德基",
+                "url": "https://www.github.com/841660202"
             },
-            "title":"7月爽一下",
-            "module":false,
-            "tpurl":"",
-            "type":1,
-            "imageurl":"",
-            "solds":0,
-            "deputytitle":"新用户专享"
+            "title": "1元能吃肯德基",
+            "module": false,
+            "tpurl": "",
+            "maintitle": "1元肯德基",
+            "type": 1,
+            "imageurl": "tttj",
+            "solds": 0,
+            "deputytitle": "新用户专享"
         },
         {
-            "position":0,
-            "typeface_color":"#f6687d",
-            "id":15351,
-            "share":{
-                "message":"刷新颜值，靠脸吃饭，领最高188元红包",
-                "url":"https://www.github.com/841660202"
+            "position": 0,
+            "typeface_color": "#77bb77",
+            "id": 15351,
+            "share": {
+                "message": "刷新颜值，靠脸吃饭，领最高188元红包",
+                "url": "https://www.github.com/841660202"
             },
-            "title":"7月爽一下",
-            "module":false,
-            "tpurl":"",
-            "type":1,
-            "imageurl":"",
-            "solds":0,
-            "deputytitle":"新用户专享"
+            "title": "鲜花一折起",
+            "module": false,
+            "maintitle": "鲜花一折起",
+            "tpurl": "",
+            "type": 1,
+            "imageurl": "tttj",
+            "solds": 0,
+            "deputytitle": "撩妹更easy"
         },
         {
-            "position":0,
-            "typeface_color":"#f6687d",
-            "id":15351,
-            "share":{
-                "message":"刷新颜值，靠脸吃饭，领最高188元红包",
-                "url":"https://www.github.com/841660202"
+            "position": 0,
+            "typeface_color": "#f6687d",
+            "id": 15351,
+            "share": {
+                "message": "刷新颜值，靠脸吃饭，领最高188元红包",
+                "url": "https://www.github.com/841660202"
             },
-            "title":"7月爽一下",
-            "module":false,
-            "tpurl":"",
-            "type":1,
-            "imageurl":"",
-            "solds":0,
-            "deputytitle":"新用户专享"
-        },
-        {
-            "position":0,
-            "typeface_color":"#f6687d",
-            "id":15351,
-            "share":{
-                "message":"刷新颜值，靠脸吃饭，领最高188元红包",
-                "url":"https://www.github.com/841660202"
-            },
-            "title":"7月爽一下",
-            "module":false,
-            "tpurl":"",
-            "type":1,
-            "imageurl":"",
-            "solds":0,
-            "deputytitle":"新用户专享"
-        },
+            "title": "7月爽一下",
+            "module": false,
+            "maintitle": "7月爽一下",
+            "tpurl": "",
+            "type": 1,
+            "imageurl": "tttj",
+            "solds": 0,
+            "deputytitle": "vip专享"
+        }
     ]
 }

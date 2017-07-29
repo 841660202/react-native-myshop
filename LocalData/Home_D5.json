@@ -1,0 +1,74 @@
+{
+    "tips":"全部4家",
+    "count": 4,
+    "data": [{
+            "datailuri": "",
+            "promotionIcon": "",
+            "name": "整佳广场",
+            "img": "wd",
+            "showtext": {
+                "text": "离我最近",
+                "count": 84,
+                "color": ""
+            },
+            "longitude": 113.327086,
+            "latitude": 23.327086,
+            "smid": 4374715,
+
+            "propmotionText": "送福利，商品低至1.5折"
+        },
+        {
+            "datailuri": "",
+            "promotionIcon": "",
+            "name": "白云万达广场",
+            "img": "kd",
+            "showtext": {
+                "text": "离我最近",
+                "count": 84,
+                "color": ""
+            },
+            "longitude": 113.327086,
+            "latitude": 23.327086,
+            "smid": 4374715,
+
+            "propmotionText": "送福利，商品低至1.5折"
+        }
+
+        ,
+        {
+            "datailuri": "",
+            "promotionIcon": "",
+            "name": "哈喽广场",
+            "img": "lyl",
+            "showtext": {
+                "text": "离我最近",
+                "count": 84,
+                "color": ""
+            },
+            "longitude": 113.327086,
+            "latitude": 23.327086,
+            "smid": 4374715,
+
+            "propmotionText": "送福利，商品低至1.5折"
+        }
+
+        ,
+        {
+            "datailuri": "",
+            "promotionIcon": "",
+            "name": "哈哈广场",
+            "img": "wd",
+            "showtext": {
+                "text": "离我最近",
+                "count": 84,
+                "color": ""
+            },
+            "longitude": 113.327086,
+            "latitude": 23.327086,
+            "smid": 4374715,
+
+            "propmotionText": "送福利，商品低至1.5折"
+        }
+
+    ]
+}

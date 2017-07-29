@@ -18,13 +18,13 @@ export default class HomeMiddleCommonView extends Component {
   };
   render() {
     return (
-      <View style={styles.container}>
-        {/*左边*/}
-        {/*右边*/}
-        <View>
-          <TouchableOpacity onPress={() => {
-            alert("点了")
-          }}>
+      <TouchableOpacity activeOpacity={0.8} onPress={() => {
+        alert("点了")
+      }}>
+        <View style={styles.container}>
+          {/*左边*/}
+          {/*右边*/}
+          <View>
             <Text
               style={[
               {
@@ -32,21 +32,18 @@ export default class HomeMiddleCommonView extends Component {
               },
               styles.titleStyle
             ]}>{this.props.title}</Text>
-          </TouchableOpacity>
-          <TouchableOpacity onPress={() => {
-            alert("点了")
-          }}>
             <Text stye={styles.subTitleStyle}>{this.props.subTitle}</Text>
-          </TouchableOpacity>
+
+          </View>
+          <Image
+            source={{
+            uri: this.props.rightImage
+          }}
+            style={styles.rightImageStyle}/>
 
         </View>
-        <Image
-          source={{
-          uri: this.props.rightImage
-        }}
-          style={styles.rightImageStyle}/>
+      </TouchableOpacity>
 
-      </View>
     );
   }
   //左边的view
