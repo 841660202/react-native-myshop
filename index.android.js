@@ -24,32 +24,13 @@ export default class SimbleApp extends Component {
     // alert(1)
   }
   render() {
-    // return (
-    // <LaunchImage/>
-    // );
+    return (
+    <LaunchImage/>
+    );
   }
  
 }
-const A = StackNavigator({
-  LaunchImage: {
-    screen: LaunchImage,
-    navigationOptions: {
-      header: null
-    }
-  },
-  Main: {
-    screen: Main,
-    navigationOptions: {
-      header: null
-    }
-  },
-  HomeDetail: {
-    screen: HomeDetail,
-    navigationOptions: {
-      header: null
-    }
-  }
-});
+
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -69,4 +50,4 @@ const styles = StyleSheet.create({
   }
 });
 
-AppRegistry.registerComponent('shop', () => A);
+AppRegistry.registerComponent('shop', () => SimbleApp);

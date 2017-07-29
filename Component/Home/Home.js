@@ -20,10 +20,13 @@ import GuessYouLike from './GuessYouLike';
 
 import {StackNavigator, NavigationActions, NavigationUtil} from 'react-navigation';
 export default class Home extends Component {
+
   constructor(props) {
     super(props);
   }
-
+  componentDidMount() {
+      
+    }
   render() {
     return (
       <View style={styles.container}>
@@ -49,9 +52,11 @@ export default class Home extends Component {
   }
   /*--------渲染导航条------- */
   renderNavBar() {
+    
     return (
       <View style={styles.navBarStyle}>
         <StatusBar
+         StatusBarAnimation={'fade'}
           backgroundColor="rgba(255,96,0,1)"
           barStyle="light-content"
           translucent
@@ -83,7 +88,7 @@ export default class Home extends Component {
           flexDirection: 'row'
         }}>
           <TouchableOpacity onPress={() => {
-            alert('消息')
+            this.props.navigation.navigate('HomeDetail')
           }}>
             <Image
               source={{

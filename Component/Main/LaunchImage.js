@@ -8,10 +8,10 @@ import {
   StatusBar
 } from 'react-native';
 import {StackNavigator, NavigationActions, NavigationUtil} from 'react-navigation';
-import Main from '../Main/Main';
+import Main from './Main';
 import SplashScreen from 'react-native-splash-screen';
 
-export default class LaunchImage extends Component {
+ class LaunchImage extends Component {
   componentDidMount() {
     SplashScreen.hide()
     // setTimeout(() => this.props.navigation.dispatch(resetAction), 100000)
@@ -20,6 +20,7 @@ constructor(props){
   super(props);
 }
   render() {
+    
     return (
       <View style={styles.launchImage}>
         <StatusBar
@@ -72,4 +73,20 @@ const styles = StyleSheet.create({
 //     }
 //   }
 // });
+const A = StackNavigator({
+  LaunchImage: {
+    screen: LaunchImage,
+    navigationOptions: {
+      header: null
+    }
+  },
+  Main: {
+    screen: Main,
+    navigationOptions: {
+      header: null
+    }
+  },
+ 
+});
 
+export default  A ;
